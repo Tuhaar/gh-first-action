@@ -6,5 +6,9 @@ jobs:
     steps:
       - name: Print Name
         run: echo "Helloo World!!"
+      - name: Formatting
+        run: |
+          echo "\n"
+          echo "*********************************"
       - name: Print Goodbye
         run: echo "Good - Bye!!"
